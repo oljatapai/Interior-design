@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+html, body, h1, h2, h3, h4, p, a, div, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.img-back {
+    background-image: url('Images4/Bacground.jpg');
+    height: 500px;
+    background-color: grey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.img {
+    image: url("Images4/Bathroom.jpg")  url("Images4/Kitchen.jpg");
+ 
+}
+h1 {
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    margin-left: 30px;
+}
+h2 {
+    color:  #82665A;
+    font-size: 24px;
+    font-style: italic;
+    margin: 30px;
+}
+.text-underline {
+    text-decoration-line: underline;
+    font-style: italic;
+}
+p {
+    margin-left: 30px;
+}
+.contact {
+    text-align: center;
+    border: 1px solid #000000;
+    background: #FFCB12;
+    color: #000000;
+    cursor: pointer;
+    padding: 12px 32px;
+    margin-top: 400px;
+    margin-left: 800px;
+    font-size: 16px;
+
+}
+.container {
+    margin-bottom: 30px;
+}
+.card {
+    display: inline-block;
+    width: 36%;
+    height: 340px; 
+    margin: 60px;  
+}
+footer {
+    text-align: left;
+    padding-top: 26px;
+    background: #82665A;
+}
+.footer-links {
+    height: 70px;
+   
+}
+.footer-list {
+    height: 100%;
+    line-height: 70px;
+}
+.footer-item {
+    font-size: 16px;
+    margin-left: 80px;
+    display: inline-block;
+    font-style: italic;
+}
+a {
+    color: #EAE0E0;
+}
+.rights {
+    font-size: 12px;
+    text-align: center;
+    color: #EAE0E0;
+    background: #82665A;  
+}
+
+
